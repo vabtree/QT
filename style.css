@@ -1,0 +1,91 @@
+code {
+font-size: 15px;
+}
+
+code.hdr14 {
+ font-size: 14px;   
+ color: green;
+ font-weight: bold;
+}
+code.hdr16 {
+ font-size: 16px;   
+ color: green;
+ display: table;
+ /*margin: 0px;
+ padding: 0px;*/
+ /*margin: 0px 0px 0px 0px;*/
+}
+code.para {
+font-size: 13px;
+font-family: monospace;
+}
+
+code.sh {
+    color: black;
+    background-color: #dedede;
+    margin-left: 50px;
+    font-size: 13px;
+    /*font-family: Consolas, "courier new";*/
+}
+
+ul.quicklink {
+font-weight: normal;
+font-size: 13px;
+list-style-type: number;
+text-align: left;
+}
+
+table.sub_line {   
+  font-size: 13px;
+  font-family: monospace;
+  font-weight: normal;
+  color: red;
+  margin-left: 200px;
+  margin-top: -35px;
+}
+
+span.label {
+display: table-cell;
+width: fit-content;
+}
+
+#mainpage {
+    /*margin-right: 200px;*/
+    margin-left: 200px;
+    padding-left: 25px;
+}
+
+#vabtreeimg {
+    width: 200px;    
+    left: 0px;
+    top: 0px;   
+    position: relative;
+    display: block;
+    /*float: right; */
+    float: left;
+    text-align: center;
+    font-size: 16px; 
+    font-family: monospace;
+    font-weight: bold;
+    color: green;    
+}
+
+
+#vline
+{
+   top:15px;
+   width:1px;
+   /*right:200px;*/
+   left:200px;
+   position:absolute;
+   border-color: green;
+   border-style: dashed;
+   border-bottom-width: 500px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
